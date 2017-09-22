@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "sample",
+    "description": "sample app",
+    "slug": "sample",
+    "privacy": "private",
+    "sdkVersion": "20.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/images/pineapple-ocean.jpg",
+    "notification": {
+      "icon": "./assets/icons/notification-icon.png",
+      "color": "#000000"
+    },
+    "loading": {
+      "icon": "./assets/images/pineapple-ocean.jpg",
+      "backgroundImage": "./assets/loading/pineapple-ocean.jpg",
+      "hideExponentText": true
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
